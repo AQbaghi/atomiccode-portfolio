@@ -1,0 +1,145 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>My Work</title>
+  </head>
+  <body id="about-page">
+    <div class="overlay"></div>
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+      <div class="menu-nav-background-one"></div>
+      <div class="menu-nav-background-two"></div>
+      <nav class="menu">
+        <div class="menu-branding"></div>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <div class="portrait"><img src="img/avatar.jpg" /></div>
+          </li>
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">ABOUT ME</a>
+          </li>
+          <li class="nav-item">
+            <a href="work.html" class="nav-link corrent">MY WORK</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">CONTACT ME</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="work">
+      <h2 class="md-heading">My <span class="text-secondary">Work</span></h2>
+
+      <h3 style="font-size: 2rem">Here's What I've Created so far...</h3>
+      <div class="projects">
+        <div class="item">
+          <a href="https://tissotstore.herokuapp.com/index.html">
+            <img src="img/1.png" class="project-image" alt="Project" />
+          </a>
+          <a
+            href="https://tissotstore.herokuapp.com/index.html"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> TISSOT WATCH STORE
+          </a>
+          <a
+            href="https://github.com/AQbaghi/tissot-shopping-cart"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+          <p>
+            Built in html, css, javascript, and node.js, this website uses the
+            Stripe Api to make payments for buying Tissot watches online. But i
+            dont have my own Warehouse to ship it to you so dont enter your
+            creditcard information for your own safety please, it wont make a
+            transaction if you tried. but you can make a fake payment with 4242
+            4242 4242 4242 and an expiry date in the future to test it out :)
+          </p>
+        </div>
+        <div class="item">
+          <a href="https://spacetime-here-n-now.web.app/">
+            <img src="img/2.png" class="project-image" alt="Project" />
+          </a>
+          <a href="https://spacetime-here-n-now.web.app/" class="btn-light">
+            <i class="fas fa-eye"></i> SPACETIME TODAY
+          </a>
+          <a href="https://github.com/AQbaghi/spacetime-today" class="btn-dark">
+            <i class="fab fa-github"></i> Github
+          </a>
+          <p>
+            Built in html, css, and javascript, this website uses the NASA APOD
+            (Astronomical Picture of the Day) API to display cards with images
+            that Nasa has taken through out the week, with the choice to see
+            what NASA has discovered on your Birthday, unless you were born
+            befor 1995... sadly NASA did not have an API before then i guess...
+          </p>
+        </div>
+        <div class="item">
+          <a href="https://jumpstartcareer.herokuapp.com/">
+            <img src="img/3.png" class="project-image" alt="Project" />
+          </a>
+          <a href="https://jumpstartcareer.herokuapp.com/" class="btn-light">
+            <i class="fas fa-eye"></i> JUMP START CAREER
+          </a>
+          <a
+            href="https://github.com/AQbaghi/Jump-Start-Careee"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+          <p>
+            Built in the MERN stack (mongodb, express, react, and node.js) this
+            was by far the most challenging web app i have made so far, though
+            the styles may seem a bit off, it behind the scenes uses password
+            hashing, Sendgring to send cv's and verification codes though
+            emails, integrated with the google places api to search for jobs
+            within a 50km radius, and more.
+          </p>
+        </div>
+        <div class="item">
+          <a href="https://github.com/AQbaghi/task-manager-api-nodecourse">
+            <img class="project-image" src="img/4.png" alt="Project" />
+          </a>
+          <a href="" class="btn-light"> Task Manager RRST API </a>
+          <a
+            href="https://github.com/AQbaghi/task-manager-api-nodecourse"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+
+          <p>
+            Built in Node.js, mongodb, and express... this is a REST API that
+            Manages your tasks, create an account, and keep your tasks private
+            from other users, it also hashes passwords with bcrypt, so i the
+            developer cant even access them... until i log into my mongodb
+            account that is. this REST API is basically the foundation of most
+            REST API's out there, i included it because the code is super clean.
+            and if you are to take a look at my code, you should look at this
+            one most of all.
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Copyright &copy; 2020</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/9395cfacd6.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

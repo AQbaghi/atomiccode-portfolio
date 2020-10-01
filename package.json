@@ -1,0 +1,14 @@
+{
+  "name": "atomic-code",
+  "version": "1.0.0",
+  "description": "Atomic Code Official Portfolio Site",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Abd Al Qader Baghi",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

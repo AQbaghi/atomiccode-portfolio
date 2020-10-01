@@ -1,0 +1,137 @@
+@include mediaXL {
+  //about
+  main#about {
+    .bio-image {
+      margin-left: 4rem;
+    }
+  }
+
+  #work {
+    .projects {
+      max-width: 800px;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .md-heading {
+      font-size: 4rem;
+    }
+  }
+}
+
+@include mediaLg {
+  //about
+  main#about {
+    .bio-image {
+      margin-left: 4rem;
+    }
+  }
+
+  #work {
+    .projects {
+      max-width: 700px;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .md-heading {
+      font-size: 4rem;
+    }
+  }
+}
+
+@include mediaMd {
+  //home page
+  main#home {
+    align-items: center;
+    text-align: center;
+    padding: 0 32px;
+  }
+  main#home h1 {
+    margin-top: 10vh;
+    padding-bottom: 1rem;
+    font-size: 4.4rem;
+  }
+  main#home h2 {
+    font-size: 2.2rem;
+  }
+  main#home h3 {
+    font-size: 2rem;
+  }
+
+  //menu
+  .menu-nav-background-one {
+    left: -10%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 2rem 100%);
+  }
+  .menu {
+    width: 100%;
+    left: 0;
+    clip-path: polygon(15px 0, 100% 0, 100% 100%, 5rem 100%);
+
+    .nav-item:nth-child(1) {
+      img {
+        width: 180px;
+        height: 180px;
+        border: solid 2px $secondary-color;
+        margin: 2rem 0 4rem 0;
+      }
+    }
+    .nav-link {
+      font-size: 20px;
+      padding: 0.6rem 0;
+    }
+  }
+
+  main#about {
+    align-items: center;
+    text-align: center;
+    padding: 0 32px;
+  }
+
+  #work {
+    .projects {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .md-heading {
+      font-size: 3.6rem;
+    }
+  }
+}
+
+@include mediaSm {
+  main#home {
+    padding: 0 32px 90px 32px;
+  }
+  main#home h1,
+  main#about h1 {
+    margin-top: 10vh;
+    padding-bottom: 1rem;
+    font-size: 3.4rem;
+  }
+  main#home h2,
+  main#about h2 {
+    font-size: 1.6rem;
+  }
+  main#home h3,
+  main#about h3 {
+    font-size: 1rem;
+  }
+
+  //about
+  main#about {
+    h2.md-heading {
+      font-size: 2.2rem;
+    }
+    .bio-image {
+      width: 150px;
+      height: 150px;
+    }
+  }
+
+  #work {
+    .projects {
+      grid-template-columns: 1fr;
+    }
+    .md-heading {
+      font-size: 3rem;
+    }
+  }
+}
